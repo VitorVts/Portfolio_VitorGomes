@@ -510,6 +510,7 @@ background: var(--main-color);
         grid-template-columns: 1fr;
     }
     .about-img{
+        display: none;
         text-align: center;
         order: 2;
     }
