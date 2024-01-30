@@ -223,7 +223,11 @@ header.sticky{
     background-color: var(--second-bg-color);
 }
 .main-text{
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     padding: 3em;
 }
 
@@ -467,11 +471,11 @@ background: var(--main-color);
 
 @media(max-width: 1480px){
     header{
-        padding: 12px 2.5%;
+        padding: 10rem 2.5%;
         transition: .1s;
     }
     header.sticky{
-        padding: 10px;
+        padding: 10em;
         transition: .1s;
     }
     section{
@@ -497,6 +501,9 @@ background: var(--main-color);
     }
 }
 @media(max-width: 920px){
+    .home{
+        margin-top: 10vh;
+    }
     .about{
         grid-template-columns: 1fr;
     }
