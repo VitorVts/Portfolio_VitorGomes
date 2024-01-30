@@ -417,7 +417,7 @@ cursor: pointer;
     position: relative
 
 }
-.contact-form form input,form textarea{
+.contact-form form input,#message{
     width: 100%;
     padding: 14px;
     background: var(--bg-color);
@@ -429,9 +429,11 @@ cursor: pointer;
     margin-bottom: 10px;
 
 }
-.contact-form textarea{
+.contact-form #message{
     resize: none;
-    height: 240px;
+    height: 340px;
+    text-align:start;
+    
 }
 .contact-form .submit{
     display: inline-block;
