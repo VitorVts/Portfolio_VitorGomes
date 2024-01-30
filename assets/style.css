@@ -242,12 +242,14 @@ header.sticky{
     align-items: center ;
     gap: 2.5rem;
     margin-top: 5rem;
+    overflow: auto;
 }
 .box{
     background-color: var(--bg-color);
     padding: 35px 45px;
     border-radius: 8px;
     transition: all .45s ease;
+    width: 100%;
 }
 .s-icons i{
     font-size: 32px ;
@@ -288,10 +290,12 @@ header.sticky{
 }
 
 .portfolio-content{
-    display: flex;
+    display: grid;
     grid-template-columns: repeat(auto-fit,minmax(350px,auto));
     align-items: center;
+    justify-content: center;
     gap: 2.5rem;
+    margin-top: 5rem;
 }
 .row{
 position: relative;
@@ -308,7 +312,7 @@ cursor: pointer;
 .layer{
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0,0,0,0.1),#f2080a);
+    background: linear-gradient(rgba(0,0,0,0.1),#583b3b);
     position: absolute;
     border-radius: 8px;
     left: 0;
